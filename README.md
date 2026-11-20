@@ -2,7 +2,7 @@
 
 Course hub for **CE677 Traffic Control and Operation**. This page gathers the course's
 adaptive traffic control modules in one place. Each module lives in its own repository
-with an interactive website, study guides, slide decks and runnable Eclipse SUMO labs.
+with an interactive website, study guides and slide decks, and most include runnable Eclipse SUMO labs.
 
 ## Modules
 
@@ -11,9 +11,11 @@ with an interactive website, study guides, slide decks and runnable Eclipse SUMO
 | **SCATS** | Sydney Coordinated Adaptive Traffic System | [smrahmanbd.github.io/scats-learning-lab](https://smrahmanbd.github.io/scats-learning-lab/) | [scats-learning-lab](https://github.com/smrahmanbd/scats-learning-lab) |
 | **SCOOT** | Split Cycle Offset Optimisation Technique | [smrahmanbd.github.io/scoot-learning-lab](https://smrahmanbd.github.io/scoot-learning-lab/) | [scoot-learning-lab](https://github.com/smrahmanbd/scoot-learning-lab) |
 | **Agentic ATSC** | Agentic AI for Adaptive Traffic Signal Control | [smrahmanbd.github.io/agentic-atsc-lab](https://smrahmanbd.github.io/agentic-atsc-lab/) | [agentic-atsc-lab](https://github.com/smrahmanbd/agentic-atsc-lab) |
+| **Reinforcement Learning** | Reinforcement Learning for Adaptive Traffic Signal Control | [smrahmanbd.github.io/rl-atsc-lab](https://smrahmanbd.github.io/rl-atsc-lab/) | [rl-atsc-lab](https://github.com/smrahmanbd/rl-atsc-lab) |
 
 SCATS and SCOOT follow the same three levels: **Foundation**, **Advanced** and **Mastery**.
 Agentic ATSC is taught in three goes: **Principles**, **Build in SUMO** and **Research**.
+Reinforcement Learning has two levels: **Foundation** and **Research**.
 
 ---
 
@@ -104,6 +106,29 @@ safety shield, remember, and talk to neighbouring agents and connected vehicles.
 
 ---
 
+## Reinforcement Learning for Adaptive Traffic Signal Control
+
+A signal controller that learns its timing from trial, error and reward: Q-tables, a small
+neural network, and what the research has built and still cannot do.
+
+**Learn online**
+
+- [Home](https://smrahmanbd.github.io/rl-atsc-lab/) ·
+  [Foundation](https://smrahmanbd.github.io/rl-atsc-lab/foundation.html) (interactive lesson: six steps and one extra, with a live junction, a Q-table and a neural network) ·
+  [Research](https://smrahmanbd.github.io/rl-atsc-lab/research.html) (pressure calculator, landmark timeline, seven gaps, eight research ideas)
+
+**Study guides and slides**
+
+| Level | Study guide | Slides |
+|---|---|---|
+| Foundation | [PDF](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/docs/materials/RL_Foundation_Study_Guide.pdf) | [PPTX](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/docs/materials/RL_Foundation_Presentation.pptx) · [PDF](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/docs/materials/RL_Foundation_Presentation.pdf) |
+| Research | [PDF](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/docs/materials/RL_Research_Study_Guide.pdf) | [PPTX](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/docs/materials/RL_Research_Presentation.pptx) · [PDF](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/docs/materials/RL_Research_Presentation.pdf) |
+
+**Code and literature:** [q_learning_intersection.py](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/code/q_learning_intersection.py) (the lesson's Q-learning agent in plain Python, no SUMO needed) ·
+[literature.md](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/research/literature.md) (37 checked references, gap table, research ideas)
+
+---
+
 ## SCATS and SCOOT side by side
 
 | | SCATS | SCOOT |
@@ -119,4 +144,5 @@ safety shield, remember, and talk to neighbouring agents and connected vehicles.
 SCATS is owned by Transport for NSW and SCOOT is a product of TRL Software. The labs are
 independent, educational re-implementations of principles published in the literature.
 Parameter values are illustrative and are not official settings. Results in the Agentic
-ATSC lab come from small synthetic SUMO scenarios and are illustrative.
+ATSC lab come from small synthetic SUMO scenarios and are illustrative. The Reinforcement
+Learning lesson uses a toy simulated junction, and its numbers are illustrative as well.
