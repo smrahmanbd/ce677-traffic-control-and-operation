@@ -116,12 +116,13 @@ neural network, and what the research has built and still cannot do.
 - [Home](https://smrahmanbd.github.io/rl-atsc-lab/) ·
   [Foundation](https://smrahmanbd.github.io/rl-atsc-lab/foundation.html) (interactive lesson: six steps and one extra, with a live junction, a Q-table and a neural network) ·
   [Research](https://smrahmanbd.github.io/rl-atsc-lab/research.html) (pressure calculator, landmark timeline, seven gaps, eight research ideas)
+- [Rooms example](https://smrahmanbd.github.io/rl-atsc-lab/rooms.html): the lecture's five-rooms Q-learning example, where you move the agent and watch the Q matrix update
 
 **Study guides and slides**
 
 | Level | Study guide | Slides |
 |---|---|---|
-| Foundation | [PDF](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/docs/materials/RL_Foundation_Study_Guide.pdf) | [PPTX](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/docs/materials/RL_Foundation_Presentation.pptx) · [PDF](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/docs/materials/RL_Foundation_Presentation.pdf) |
+| Foundation | [PDF](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/docs/materials/RL_Foundation_Study_Guide.pdf) | Topic 10, *Reinforcement Learning: An Overview*: [open online](https://smrahmanbd.github.io/rl-atsc-lab/viewer.html?doc=materials/RL_Foundation_Presentation.pdf&mode=slides&dl=materials/RL_Foundation_Presentation.pptx) · [PPTX](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/docs/materials/RL_Foundation_Presentation.pptx) · [PDF](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/docs/materials/RL_Foundation_Presentation.pdf) |
 | Research | [PDF](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/docs/materials/RL_Research_Study_Guide.pdf) | [PPTX](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/docs/materials/RL_Research_Presentation.pptx) · [PDF](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/docs/materials/RL_Research_Presentation.pdf) |
 
 **Code and literature:** [q_learning_intersection.py](https://github.com/smrahmanbd/rl-atsc-lab/blob/main/code/q_learning_intersection.py) (the lesson's Q-learning agent in plain Python, no SUMO needed) ·
